@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "fem-3-column-card",
     "public": "./",
     "ignore": [
       "firebase.json",
