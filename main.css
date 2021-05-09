@@ -50,7 +50,7 @@ p {
 }
 
 .card {
-    width: 335px;
+                width: 335px;
     height: min-content;
     padding: 4rem;
 }
