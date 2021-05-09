@@ -1,0 +1,101 @@
+
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-grey: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+p {
+    margin-top: 2rem;
+}
+
+.button {
+    background-color: white;
+    border-radius: 40px;
+    padding: 1rem 1.75rem;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+.card {
+    width: 335px;
+    padding: 4rem;
+}
+
+@media screen and (max-width: 800px){
+    .cards > :first-child {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .cards > :last-child {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .cards {
+        display: flex;
+        flex-grow: 0;
+        
+    }
+
+    .cards > :first-child {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .cards > :last-child {
+        border-radius: 0 10px 10px 0;
+    }
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+}
+
+    .sedans .button {
+        color: var(--bright-orange);
+    }
+
+.suvs {
+    background-color: var(--dark-cyan);
+}
+
+    .suvs .button {
+        color: var(--dark-cyan);
+    }
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+    .luxury .button {
+        color: var(--very-dark-cyan);
+    }
