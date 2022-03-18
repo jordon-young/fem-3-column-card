@@ -87,7 +87,9 @@ h2 {
 }
 
 p {
-  line-height: 1.75em;
+  line-height: 1.5em;
+  font-style: normal;
+  font-weight: 400;
 }
 
 footer {
@@ -136,6 +138,10 @@ footer {
 
   main > :last-child {
     border-radius: 0 10px 10px 0;
+  }
+
+  p {
+    line-height: 1.75em;
   }
 
   section {
