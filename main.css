@@ -102,6 +102,10 @@ footer {
   grid-row: 3 / 4;
 }
 
+footer p {
+  color: black;
+}
+
 #sedans {
   background-color: var(--bright-orange);
 }
