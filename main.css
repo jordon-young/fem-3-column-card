@@ -65,6 +65,12 @@ section > div {
   row-gap: 40px;
 }
 
+h1 {
+  position: fixed;
+  visibility: hidden;
+  top: -10rem;
+}
+
 h2 {
   font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
